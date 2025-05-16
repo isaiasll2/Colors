@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/col.png">
+    <title>Los Colores</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">LOS COLORES</div>
+            <ul class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#teoria">Teoría del Color</a></li>
+                <li><a href="#psicologia">Psicología del Color</a></li>
+                <li><a href="#sistemas">RGB, CMYK y HEXADECIMAL</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección 1: Portada / Inicio -->
+        <section id="inicio" class="seccion">
+            <div class="contenedor">
+                <div class="texto-portada">
+                    <h1>LOS COLORES</h1>
+                    <p>Explorando el fascinante mundo de los colores, su teoría, psicología y sistemas de representación.</p>
+                    <a href="#teoria" class="boton">Comenzar</a>
+                </div>
+                <div class="imagen-portada">
+                    <div class="circulo-color rojo"></div>
+                    <div class="circulo-color amarillo"></div>
+                    <div class="circulo-color azul"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 2: Teoría del Color -->
+        <section id="teoria" class="seccion">
+            <div class="contenedor">
+                <h2>Teoría del Color</h2>
+                <div class="flex-contenido">
+                    <div class="texto">
+                        <h3>Fundamentos de la Teoría del Color</h3>
+                        <p>La teoría del color es un conjunto de reglas básicas en la mezcla de colores para conseguir el efecto deseado combinando colores de luz o pigmento.</p>
+                        
+                        <h3>Colores Primarios</h3>
+                        <p>Son aquellos colores que no pueden obtenerse mediante la mezcla de ningún otro y son los colores base de los demás.</p>
+                        <ul>
+                            <li>Rojo</li>
+                            <li>Amarillo</li>
+                            <li>Azul</li>
+                        </ul>
+                        
+                        <h3>Colores Secundarios</h3>
+                        <p>Son los que se obtienen mezclando dos colores primarios en proporciones iguales.</p>
+                        <ul>
+                            <li>Verde (Amarillo + Azul)</li>
+                            <li>Naranja (Amarillo + Rojo)</li>
+                            <li>Púrpura (Rojo + Azul)</li>
+                        </ul>
+                    </div>
+                    <div class="imagen">
+                        <div class="circulo-cromatico">
+                            <div class="segmento" style="--color: var(--rojo);"></div>
+                            <div class="segmento" style="--color: var(--naranja);"></div>
+                            <div class="segmento" style="--color: var(--amarillo);"></div>
+                            <div class="segmento" style="--color: var(--verde);"></div>
+                            <div class="segmento" style="--color: var(--azul);"></div>
+                            <div class="segmento" style="--color: var(--violeta);"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 3: Psicología del color -->
+        <section id="psicologia" class="seccion">
+            <div class="contenedor">
+                <h2>Psicología del Color</h2>
+                <div class="flex-contenido">
+                    <div class="imagen">
+                        <div class="paleta-colores">
+                            <div class="color-ejemplo" style="--color: var(--rojo);">
+                                <span>Rojo</span>
+                            </div>
+                            <div class="color-ejemplo" style="--color: var(--azul);">
+                                <span>Azul</span>
+                            </div>
+                            <div class="color-ejemplo" style="--color: var(--verde);">
+                                <span>Verde</span>
+                            </div>
+                            <div class="color-ejemplo" style="--color: var(--amarillo);">
+                                <span>Amarillo</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="texto">
+                        <p>La psicología del color estudia cómo los colores afectan nuestras emociones, comportamientos y decisiones.</p>
+                        
+                        <h3>Significado de los Colores</h3>
+                        <ul>
+                            <li><strong>Rojo:</strong> Pasión, energía, peligro</li>
+                            <li><strong>Azul:</strong> Calma, confianza, profesionalidad</li>
+                            <li><strong>Verde:</strong> Naturaleza, crecimiento, armonía</li>
+                            <li><strong>Amarillo:</strong> Felicidad, optimismo, creatividad</li>
+                            <li><strong>Naranja:</strong> Entusiasmo, diversión, vitalidad</li>
+                            <li><strong>Púrpura:</strong> Lujo, sabiduría, creatividad</li>
+                            <li><strong>Negro:</strong> Elegancia, poder, formalidad</li>
+                            <li><strong>Blanco:</strong> Pureza, limpieza, simplicidad</li>
+                        </ul>
+                        
+                        <h3>Aplicaciones</h3>
+                        <p>La psicología del color se aplica en marketing, diseño, arte y más para provocar ciertas emociones y respuestas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 4: RGB, CMYK y HEXADECIMAL -->
+        <section id="sistemas" class="seccion">
+            <div class="contenedor">
+                <h2>Sistemas de Color: RGB, CMYK y HEXADECIMAL</h2>
+                <div class="flex-contenido">
+                    <div class="texto">
+                        <h3>RGB (Red, Green, Blue)</h3>
+                        <p>Sistema aditivo usado en dispositivos electrónicos. Se basa en la combinación de luz roja, verde y azul.</p>
+                        <p>Ejemplo: RGB(255, 0, 0) = Rojo puro</p>
+                        
+                        <h3>CMYK (Cyan, Magenta, Yellow, Key/Black)</h3>
+                        <p>Sistema sustractivo usado en impresión. Se basa en la absorción de luz mediante tintas cyan, magenta, amarilla y negra.</p>
+                        <p>Ejemplo: CMYK(0%, 100%, 100%, 0%) = Rojo</p>
+                        
+                        <h3>HEXADECIMAL</h3>
+                        <p>Notación que representa colores RGB en formato de seis dígitos hexadecimales.</p>
+                        <p>Ejemplo: #FF0000 = Rojo</p>
+                    </div>
+                    <div class="imagen">
+                        <div class="modelos-color">
+                            <div class="modelo rgb">
+                                <div class="color-r"></div>
+                                <div class="color-g"></div>
+                                <div class="color-b"></div>
+                                <div class="color-rgb"></div>
+                                <span>RGB</span>
+                            </div>
+                            <div class="modelo cmyk">
+                                <div class="color-c"></div>
+                                <div class="color-m"></div>
+                                <div class="color-y"></div>
+                                <div class="color-k"></div>
+                                <span>CMYK</span>
+                            </div>
+                            <div class="modelo hex">
+                                <div class="color-hex">#FF0000</div>
+                                <span>HEX</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+</html>
